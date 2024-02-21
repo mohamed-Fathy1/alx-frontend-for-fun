@@ -17,9 +17,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1em;
     max-width: 60em;
     margin: 0 auto;
     margin-top: 5em;
@@ -32,27 +30,8 @@ li {
     padding: 1em;
     background-color: #F7F7F7;
     border: 1px solid #000;
-    border-radius: 8px;
-    font-size: 1.8em;
+    border-radius: 5px;
+    font-size: 1.7em;
     font-weight: 900;
-}
 
-li span {
-    width: 7em;
-    aspect-ratio: 1.4/2;
-    background-image: url('./0-sprite.png');
-    background-size: 21em 9em;
-    background-repeat: no-repeat;
-}
-
-li span.i-html {
-    background-position: 0 0;
-}
-
-li span.i-css {
-    background-position: -7em 0;
-}
-
-li span.i-js {
-    background-position: -14em 0;
 }
