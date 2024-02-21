@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'times new roman', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    padding-top: 5em;
+}
+
+h2 {
+    min-width: 50%;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-left: 1em;
+}
+
+h2 a {
+    color: #941A34;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 4px solid #941A34;
+    max-width: 0%;
+    transition: max-width 1s ease-in-out;
+}
+
+h2 a:hover {
+    max-width: 1000px;
+}
