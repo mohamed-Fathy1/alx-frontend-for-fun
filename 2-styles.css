@@ -23,7 +23,7 @@ body {
 
 
 .toggle {
-    width: 10em;
+    width: 11em;
     height: 3.5em;
     position: relative;
     background-color: var(--disabled-color);
@@ -64,11 +64,11 @@ body {
 }
 
 .toggle label .toggle-inner {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 .toggle label .toggle-inner::before {
-    content: 'YES';
+    content: 'Yes';
     position: absolute;
     color: #FFFFFF;
     top: 50%;
@@ -80,7 +80,7 @@ body {
 }
 
 .toggle label .toggle-inner::after {
-    content: 'NO';
+    content: 'No';
     position: absolute;
     color: #C3C3C3;
     top: 50%;
